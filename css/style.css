@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: aquamarine;
+    overflow: hidden;
+    width: 300px;
+    height: 150px;
+    border-radius: 5%;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+h1, h2, h3 {
+   text-align: center;
+   line-height: 1.5em;
+   position: relative;
+   z-index: 30;
+}
+
+.decor1 {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    top: -25%;
+    right: -5%;
+}
+
+.decor2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 20;
+    right: 10%;
+    top: 25%;
+}
